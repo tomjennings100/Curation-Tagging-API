@@ -1,11 +1,11 @@
-## Curation Tagging Engine API 
-### Endpoint
+# Curation Tagging Engine API 
+## Endpoint
     POST http://52.19.189.170:3001/concepts
     
 ### Req Body
     articleUrl: [myUrl]
     
-### Res Body
+## Res Body
     {
         "title": "Islamophobic attacks in Manchester surge by 500% after arena attack",
         "content": "",
@@ -192,5 +192,5 @@
         }
     }
 
-### Tags API
+## Tags API
     GET https://ptapi-test.curationcorp.com/api/tag
